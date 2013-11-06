@@ -21,6 +21,7 @@
 		E911990E182AB85800DB3896 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91198F0182AB85800DB3896 /* UIKit.framework */; };
 		E9119916182AB85800DB3896 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9119914182AB85800DB3896 /* InfoPlist.strings */; };
 		E9119918182AB85800DB3896 /* UIAlertView_blocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9119917182AB85800DB3896 /* UIAlertView_blocksTests.m */; };
+		E9119924182AB86400DB3896 /* UIAlertView+blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = E9119923182AB86400DB3896 /* UIAlertView+blocks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E9119913182AB85800DB3896 /* UIAlertView+blocksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIAlertView+blocksTests-Info.plist"; sourceTree = "<group>"; };
 		E9119915182AB85800DB3896 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E9119917182AB85800DB3896 /* UIAlertView_blocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAlertView_blocksTests.m; sourceTree = "<group>"; };
+		E9119922182AB86400DB3896 /* UIAlertView+blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+blocks.h"; sourceTree = "<group>"; };
+		E9119923182AB86400DB3896 /* UIAlertView+blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+blocks.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 				E91198FE182AB85800DB3896 /* Main.storyboard */,
 				E9119901182AB85800DB3896 /* ViewController.h */,
 				E9119902182AB85800DB3896 /* ViewController.m */,
+				E9119921182AB86400DB3896 /* UIAlertView+blocks */,
 				E9119904182AB85800DB3896 /* Images.xcassets */,
 				E91198F3182AB85800DB3896 /* Supporting Files */,
 			);
@@ -150,6 +154,15 @@
 				E9119914182AB85800DB3896 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9119921182AB86400DB3896 /* UIAlertView+blocks */ = {
+			isa = PBXGroup;
+			children = (
+				E9119922182AB86400DB3896 /* UIAlertView+blocks.h */,
+				E9119923182AB86400DB3896 /* UIAlertView+blocks.m */,
+			);
+			path = "UIAlertView+blocks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9119903182AB85800DB3896 /* ViewController.m in Sources */,
+				E9119924182AB86400DB3896 /* UIAlertView+blocks.m in Sources */,
 				E91198FD182AB85800DB3896 /* AppDelegate.m in Sources */,
 				E91198F9182AB85800DB3896 /* main.m in Sources */,
 			);
